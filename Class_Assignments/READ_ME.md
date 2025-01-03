@@ -42,6 +42,8 @@
 
 ## 3. DSC43C8 Homework 2
 
-
+- For this second homework assignment, we used PCA, t-SNE, and MLPClassifier on MINIST and CIFAR-10 data. First, we performed MLP on the raw data, normalizing MINIST first by dividing by 255 and z-score for CIFAR before activating the classifier. Next, we used PCA on both data sets before running MLP again. Finally, we used PCA + t-SNE stacked on the data sets. In this assignment, we also visualized the loss values for training and test losses. The metrics used to evaluate the models: accuracy, sensitivity, specificity, f1-micro, f1-macro, and d-index.
 
 ## 4. DSC43C8 Homework 3
+
+- For our final homework assignment, we used PCA + t-SNE stacked on MINIST and CIFAR-10 data, performing CNN and DNN on the data sets using both SGD and ADAM optimizers. First, we transform the data, normalizing and converting the target variables to categorical for use with categorical_crossentropy loss. For the DNN and CNN models, we used Keras Sequential models. After running each model, we evaluated it via accuracy, sensitivity, specificity, f1-micro, f1-macro, d-index, eta train, eta test, and the eta ratio. The train / test losses were also visualized, along with the confusion matrix.
