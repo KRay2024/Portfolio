@@ -51,3 +51,7 @@
 ## 5. DSC43C8 Homework 3
 
 - For our final homework assignment, we used PCA + t-SNE stacked on MINIST and CIFAR-10 data, performing CNN and DNN on the data sets using both SGD and ADAM optimizers. First, we transform the data, normalizing and converting the target variables to categorical for use with categorical_crossentropy loss. For the DNN and CNN models, we used Keras Sequential models. After running each model, we evaluated it via accuracy, sensitivity, specificity, f1-micro, f1-macro, d-index, eta train, eta test, and the eta ratio. The train / test losses were also visualized, along with the confusion matrix.
+
+## 6. Security Review - Automobile Undercarriages
+
+- This assignment is a security review of automobile undercarriages for my DSC 4354 - Cybersecurity course. For this assignment, we were to write a security report on an everyday object. THe goal here was for us to be introduced to the thought process necessary for cybersecurity, analyzing risks and weaknesses, etc. In the assignment, I cover assets / security goals, potential adversaries / threats, potential weaknesses, potential defenses, and risks.
