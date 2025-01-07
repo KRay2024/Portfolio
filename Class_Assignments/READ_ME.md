@@ -1,6 +1,10 @@
 # Personal Projects ReadMe
 
-## 1. DSC43C8 Project 1
+## 1. CISA Report Assignment
+
+- This assignment was our final project for my DSC 4354 - Cybersecurity coure. The assignment is an analysis of a Cyebersecurity and Infrastructure Security Agency (CISA) report. In this analysis, every aspect fo the report is covered, along with finding additional evidence on the topic and stating possible causes and motives.
+
+## 2. DSC43C8 Project 1
 
 - This was the first group project for my DSC 43C8 - Big Data course. In this assignment, we used t-SNE, UMAP, PHATE, PCA, sPCA, SVM, LLE,
   KMeans, and NearestNeighbors. The data sets we were working with were the Iris data set, a Big Patent data set, Drug Discovery data set,
@@ -19,7 +23,7 @@
     UMAP. Finally, we used a stacked PCA + t-SNE method on the data this time with an SVM classification model. We used the same metrics to
     evaluate the SVM model as we did the KMeans models.
 
-## 2. DSC43C8 Homework 1
+## 3. DSC43C8 Homework 1
 
 - This was the first homework assignment for my Big Data course. In this assignment, we worked with a vehicles dataset. The first step for this
   assignment was to clean the data, checking for any columns whose values were all equal to zero, dropping those columns. Next, I combined
@@ -40,10 +44,10 @@
   - PCA EXTENSIONS: For this last section, we first used sklearn.decomposition's PCA package to perform PCA on the given matrix. Next, we coded
     PCA from scratch, comparing the explained variances and variance ratios with sklearn's PCA package.
 
-## 3. DSC43C8 Homework 2
+## 4. DSC43C8 Homework 2
 
 - For this second homework assignment, we used PCA, t-SNE, and MLPClassifier on MINIST and CIFAR-10 data. First, we performed MLP on the raw data, normalizing MINIST first by dividing by 255 and z-score for CIFAR before activating the classifier. Next, we used PCA on both data sets before running MLP again. Finally, we used PCA + t-SNE stacked on the data sets. In this assignment, we also visualized the loss values for training and test losses. The metrics used to evaluate the models: accuracy, sensitivity, specificity, f1-micro, f1-macro, and d-index.
 
-## 4. DSC43C8 Homework 3
+## 5. DSC43C8 Homework 3
 
 - For our final homework assignment, we used PCA + t-SNE stacked on MINIST and CIFAR-10 data, performing CNN and DNN on the data sets using both SGD and ADAM optimizers. First, we transform the data, normalizing and converting the target variables to categorical for use with categorical_crossentropy loss. For the DNN and CNN models, we used Keras Sequential models. After running each model, we evaluated it via accuracy, sensitivity, specificity, f1-micro, f1-macro, d-index, eta train, eta test, and the eta ratio. The train / test losses were also visualized, along with the confusion matrix.
